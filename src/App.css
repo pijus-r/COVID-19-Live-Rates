@@ -1,0 +1,71 @@
+.card {
+  word-wrap: inherit;
+  margin-top: 1em;
+}
+.custom {
+   margin-bottom: 5%; 
+}
+
+.table-responsive {
+  height: 400px;
+  overflow: scroll;
+}
+
+thead tr:nth-child(1) th {
+  position: sticky;
+  top: -0.05em;
+  z-index: 10;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.jumbotron {
+  background-color: white;
+  color: black;
+}
+
+.jumbotron img {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.table .thead-light th {
+  color: #495057;
+  background-color: #F7F7F7 !important;
+  border-color: #dee2e6;
+}
+
+.spinner-grow {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.thead-light {
+  background-color: rgba(0, 0, 0, .03) !important;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
