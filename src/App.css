@@ -1,11 +1,24 @@
 .card {
   word-wrap: inherit;
   margin-top: 1em;
+
 }
 .custom {
-   margin-bottom: 5%; 
+   margin-bottom: 5%;
 }
+.custom-card li{
+  border: 2px solid WHITE;
 
+}
+.badge {
+  margin-left: 1.7em !important;
+}
+.custom-card {
+  display: -webkit-inline-box;
+  border: 0px solid black;
+}
+.list-group {
+    flex-direction: row;}
 .table-responsive {
   height: 400px;
   overflow: scroll;
@@ -21,13 +34,20 @@ body {
   background-color: white;
   color: black;
 }
-
+.countries{
+font-size:large;}
+.violet{
+  color: #581845;
+}
+.yellow{
+  color: #900C3F;
+}
 .red {
   color: red;
 }
 
 .blue {
-  color: blue;
+  color: #3331CB ;
 }
 
 .green {
@@ -60,6 +80,7 @@ body {
 }
 
 table {
+      font-weight: 500;
   border-collapse: collapse;
   width: 50%;
 }

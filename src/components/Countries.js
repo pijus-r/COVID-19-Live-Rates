@@ -34,22 +34,18 @@ class Countries extends Component {
               <div class="card-header">
                 <div class="row">
                   <div class="col-sm-12 col-md-4">
-                    <Form>
                       <InputGroup>
                         <FormControl
-                          type="search"
                           onChange={this.handleChange}
-                          name="search"
                           placeholder="Search by country"
                           value={value}
                         />
                       </InputGroup>
-                    </Form>
-                  </div>
-                </div>
+                </div>                </div>
+
               </div>
               <div className="table-responsive">
-                <table class="table">
+                <table class="table table-bordered">
                   <thead class="thead-light">
                     <tr>
                       <th scope="col">Countries</th>
@@ -58,38 +54,36 @@ class Countries extends Component {
                       <th scope="col">Deaths</th>
                       <th scope="col">Critical</th>
                       <th scope="col">Active</th>
-                      <th scope="col">Cases per 1 Million</th>
                     </tr>
                   </thead>{" "}
                   <tbody>
                     {results.map(el => (
                       <>
                         <tr>
-                          <td>{el.country}</td>
+                          <td class="countries">{el.country}</td>
 
-                          <td>
+                          <td class="blue">
                             <div class="row">
                               <div class="col-sm-12"> Total: {el.cases} </div>
                               <div class="col-sm-12">
                                 {" "}
-                                Today: {el.todayCases}{" "}
+                              <small>  Today: {el.todayCases}{" "}</small>
                               </div>{" "}
                             </div>
                           </td>
 
-                          <td>{el.recovered}</td>
-                          <td>
+                          <td class="green">{el.recovered}</td>
+                          <td class="red">
                             <div class="row">
                               <div class="col-sm-12"> Total: {el.deaths} </div>
                               <div class="col-sm-12">
                                 {" "}
-                                Today: {el.todayDeaths}{" "}
+                                <small>  Today: {el.todayDeaths}{" "}</small>
                               </div>{" "}
                             </div>
                           </td>
-                          <td>{el.critical}</td>
-                          <td>{el.active}</td>
-                          <td>{el.casesPerOneMillion}</td>
+                          <td class="violet">{el.critical}</td>
+                          <td class="yellow">{el.active}</td>
                         </tr>
                       </>
                     ))}
