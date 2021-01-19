@@ -1,5 +1,6 @@
 # COVID-19-Live-Rates
 Displays COVID-19 total rates and filtered by country. 
+
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 
