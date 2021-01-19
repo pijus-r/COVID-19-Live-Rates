@@ -1,6 +1,7 @@
 # COVID-19-Live-Rates
 Displays COVID-19 total rates and filtered by country. 
-Made with: **React.js**
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 
 ![alt text](https://github.com/pijus-r/COVID-19-Live-Rates/blob/master/show.png?raw=true)
 
@@ -13,4 +14,3 @@ cd COVID-19-Live-Rates
 npm install && npm start
 ```
 
-@ Pijus Rancevas
